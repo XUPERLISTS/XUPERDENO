@@ -1,6 +1,6 @@
 Deno.serve(async (req) => {
   // PEGA AQUÍ TU URL DE GITHUB (la que termina en .w3u)
-  const URL_GITHUB = "TU_URL_RAW_AQUI";
+  const URL_GITHUB = "https://raw.githubusercontent.com/XUPERLISTS/XUPERLIST-1/main/XUPERLISTS-1.w3u";
 
   try {
     const res = await fetch(URL_GITHUB);
